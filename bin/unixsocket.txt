@@ -1,0 +1,48 @@
+closed init bound listening connecting connected waiting init[non-blocking] bound[non-blocking] listening[non-blocking] connecting[non-blocking]
+closed
+closed init bound listening connecting connected waiting init[non-blocking] bound[non-blocking] listening[non-blocking] connecting[non-blocking]
+socket bind listen block unblock accept connect write wait read return abort close return
+closed socket init
+init abort closed
+init bind bound
+init connect connecting
+init unblock init[non-blocking]
+init[non-blocking] block init
+init[non-blocking] abort init
+init[non-blocking] bind bound[non-blocking]
+init[non-blocking] connect connecting[non-blocking]
+bound abort init
+bound listen listening
+bound unblock bound[non-blocking]
+bound[non-blocking] block bound
+bound[non-blocking] abort init[non-blocking]
+bound[non-blocking] listen listening[non-blocking]
+listening abort bound
+listening accept connecting
+listening unblock listening[non-blocking]
+listening[non-blocking] block listening
+listening[non-blocking] abort bound[non-blocking]
+listening[non-blocking] accept connecting[non-blocking]
+connecting return connected
+connecting wait connecting
+connected abort listening
+connected read waiting
+connected write waiting
+connected unblock connecting[non-blocking]
+connecting[non-blocking] block connecting
+connecting[non-blocking] read connecting[non-blocking]
+connecting[non-blocking] write connecting[non-blocking]
+connecting[non-blocking] abort connecting[non-blocking]
+waiting wait waiting
+waiting return connected
+waiting abort connected
+init close closed
+bound close closed
+listening close closed
+connected close closed
+connecting close closed
+waiting close closed
+init[non-blocking] close closed
+bound[non-blocking] close closed
+listening[non-blocking] close closed
+connecting[non-blocking] close closed
